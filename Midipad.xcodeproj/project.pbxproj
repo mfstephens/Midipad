@@ -1,0 +1,1026 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C99C8C3A19799CD30066FA46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99C8C3919799CD30066FA46 /* Foundation.framework */; };
+		C99C8C3C19799CD30066FA46 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99C8C3B19799CD30066FA46 /* CoreGraphics.framework */; };
+		C99C8C3E19799CD30066FA46 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99C8C3D19799CD30066FA46 /* UIKit.framework */; };
+		C99C8C4419799CD30066FA46 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C99C8C4219799CD30066FA46 /* InfoPlist.strings */; };
+		C99C8C4619799CD30066FA46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C99C8C4519799CD30066FA46 /* main.m */; };
+		C99C8C4A19799CD30066FA46 /* MidiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C99C8C4919799CD30066FA46 /* MidiAppDelegate.m */; };
+		C99C8C4D19799CD30066FA46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C99C8C4B19799CD30066FA46 /* Main.storyboard */; };
+		C99C8C5019799CD30066FA46 /* MidiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C99C8C4F19799CD30066FA46 /* MidiViewController.m */; };
+		C99C8C5219799CD30066FA46 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C99C8C5119799CD30066FA46 /* Images.xcassets */; };
+		C99C8C5919799CD30066FA46 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99C8C5819799CD30066FA46 /* XCTest.framework */; };
+		C99C8C5A19799CD30066FA46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99C8C3919799CD30066FA46 /* Foundation.framework */; };
+		C99C8C5B19799CD30066FA46 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99C8C3D19799CD30066FA46 /* UIKit.framework */; };
+		C99C8C6319799CD30066FA46 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C99C8C6119799CD30066FA46 /* InfoPlist.strings */; };
+		C99C8C6519799CD30066FA46 /* MidipadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C99C8C6419799CD30066FA46 /* MidipadTests.m */; };
+		C99C8CFF197BBDB60066FA46 /* syn_clap01.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8C75197BBDB60066FA46 /* syn_clap01.wav */; };
+		C99C8D00197BBDB60066FA46 /* syn_clap02.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8C76197BBDB60066FA46 /* syn_clap02.wav */; };
+		C99C8D01197BBDB60066FA46 /* syn_clap03.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8C77197BBDB60066FA46 /* syn_clap03.wav */; };
+		C99C8D02197BBDB60066FA46 /* syn_clap04.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8C78197BBDB60066FA46 /* syn_clap04.wav */; };
+		C99C8D03197BBDB60066FA46 /* syn_clap05.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8C79197BBDB60066FA46 /* syn_clap05.wav */; };
+		C99C8D04197BBDB60066FA46 /* syn_clap06.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8C7A197BBDB60066FA46 /* syn_clap06.wav */; };
+		C99C8D05197BBDB60066FA46 /* syn_clap07.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8C7B197BBDB60066FA46 /* syn_clap07.wav */; };
+		C99C8D06197BBDB60066FA46 /* syn_clap08.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8C7C197BBDB60066FA46 /* syn_clap08.wav */; };
+		C99C8D07197BBDB60066FA46 /* syn_clap09.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8C7D197BBDB60066FA46 /* syn_clap09.wav */; };
+		C99C8D08197BBDB60066FA46 /* syn_clap10.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8C7E197BBDB60066FA46 /* syn_clap10.wav */; };
+		C99C8D09197BBDB60066FA46 /* syn_clap11.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8C7F197BBDB60066FA46 /* syn_clap11.wav */; };
+		C99C8D0A197BBDB60066FA46 /* syn_clap12.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8C80197BBDB60066FA46 /* syn_clap12.wav */; };
+		C99C8D0B197BBDB60066FA46 /* syn_clap13.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8C81197BBDB60066FA46 /* syn_clap13.wav */; };
+		C99C8D0C197BBDB60066FA46 /* syn_clap14.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8C82197BBDB60066FA46 /* syn_clap14.wav */; };
+		C99C8D0D197BBDB60066FA46 /* syn_clap15.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8C83197BBDB60066FA46 /* syn_clap15.wav */; };
+		C99C8D0E197BBDB60066FA46 /* syn_clap16.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8C84197BBDB60066FA46 /* syn_clap16.wav */; };
+		C99C8D0F197BBDB60066FA46 /* syn_clap17.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8C85197BBDB60066FA46 /* syn_clap17.wav */; };
+		C99C8D10197BBDB60066FA46 /* syn_clap18.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8C86197BBDB60066FA46 /* syn_clap18.wav */; };
+		C99C8D11197BBDB60066FA46 /* syn_clap19.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8C87197BBDB60066FA46 /* syn_clap19.wav */; };
+		C99C8D12197BBDB60066FA46 /* syn_clap20.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8C88197BBDB60066FA46 /* syn_clap20.wav */; };
+		C99C8D13197BBDB60066FA46 /* syn_cowbell01.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8C89197BBDB60066FA46 /* syn_cowbell01.wav */; };
+		C99C8D14197BBDB60066FA46 /* syn_cowbell02.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8C8A197BBDB60066FA46 /* syn_cowbell02.wav */; };
+		C99C8D15197BBDB60066FA46 /* syn_cowbell03.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8C8B197BBDB60066FA46 /* syn_cowbell03.wav */; };
+		C99C8D16197BBDB60066FA46 /* syn_fx01.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8C8C197BBDB60066FA46 /* syn_fx01.wav */; };
+		C99C8D17197BBDB60066FA46 /* syn_fx02.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8C8D197BBDB60066FA46 /* syn_fx02.wav */; };
+		C99C8D18197BBDB60066FA46 /* syn_fx03.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8C8E197BBDB60066FA46 /* syn_fx03.wav */; };
+		C99C8D19197BBDB60066FA46 /* syn_fx04.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8C8F197BBDB60066FA46 /* syn_fx04.wav */; };
+		C99C8D1A197BBDB60066FA46 /* syn_fx05.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8C90197BBDB60066FA46 /* syn_fx05.wav */; };
+		C99C8D1B197BBDB60066FA46 /* syn_fx06.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8C91197BBDB60066FA46 /* syn_fx06.wav */; };
+		C99C8D1C197BBDB60066FA46 /* syn_fx07.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8C92197BBDB60066FA46 /* syn_fx07.wav */; };
+		C99C8D1D197BBDB60066FA46 /* syn_fx08.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8C93197BBDB60066FA46 /* syn_fx08.wav */; };
+		C99C8D1E197BBDB60066FA46 /* syn_fx09.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8C94197BBDB60066FA46 /* syn_fx09.wav */; };
+		C99C8D1F197BBDB60066FA46 /* syn_fx10.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8C95197BBDB60066FA46 /* syn_fx10.wav */; };
+		C99C8D20197BBDB60066FA46 /* syn_fx11.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8C96197BBDB60066FA46 /* syn_fx11.wav */; };
+		C99C8D21197BBDB60066FA46 /* syn_fx12.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8C97197BBDB60066FA46 /* syn_fx12.wav */; };
+		C99C8D22197BBDB60066FA46 /* syn_hh01.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8C98197BBDB60066FA46 /* syn_hh01.wav */; };
+		C99C8D23197BBDB60066FA46 /* syn_hh02.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8C99197BBDB60066FA46 /* syn_hh02.wav */; };
+		C99C8D24197BBDB60066FA46 /* syn_hh03.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8C9A197BBDB60066FA46 /* syn_hh03.wav */; };
+		C99C8D25197BBDB60066FA46 /* syn_hh04.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8C9B197BBDB60066FA46 /* syn_hh04.wav */; };
+		C99C8D26197BBDB60066FA46 /* syn_hh05.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8C9C197BBDB60066FA46 /* syn_hh05.wav */; };
+		C99C8D27197BBDB60066FA46 /* syn_hh06.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8C9D197BBDB60066FA46 /* syn_hh06.wav */; };
+		C99C8D28197BBDB60066FA46 /* syn_hh07.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8C9E197BBDB60066FA46 /* syn_hh07.wav */; };
+		C99C8D29197BBDB60066FA46 /* syn_hh08.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8C9F197BBDB60066FA46 /* syn_hh08.wav */; };
+		C99C8D2A197BBDB60066FA46 /* syn_hh09.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CA0197BBDB60066FA46 /* syn_hh09.wav */; };
+		C99C8D2B197BBDB60066FA46 /* syn_hh10.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CA1197BBDB60066FA46 /* syn_hh10.wav */; };
+		C99C8D2C197BBDB60066FA46 /* syn_hh11.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CA2197BBDB60066FA46 /* syn_hh11.wav */; };
+		C99C8D2D197BBDB60066FA46 /* syn_hh12.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CA3197BBDB60066FA46 /* syn_hh12.wav */; };
+		C99C8D2E197BBDB60066FA46 /* syn_hh13.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CA4197BBDB60066FA46 /* syn_hh13.wav */; };
+		C99C8D2F197BBDB60066FA46 /* syn_hh14.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CA5197BBDB60066FA46 /* syn_hh14.wav */; };
+		C99C8D30197BBDB60066FA46 /* syn_hh15.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CA6197BBDB60066FA46 /* syn_hh15.wav */; };
+		C99C8D31197BBDB60066FA46 /* syn_hh16.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CA7197BBDB60066FA46 /* syn_hh16.wav */; };
+		C99C8D32197BBDB60066FA46 /* syn_hh17.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CA8197BBDB60066FA46 /* syn_hh17.wav */; };
+		C99C8D33197BBDB60066FA46 /* syn_hh18.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CA9197BBDB60066FA46 /* syn_hh18.wav */; };
+		C99C8D34197BBDB60066FA46 /* syn_hh19.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CAA197BBDB60066FA46 /* syn_hh19.wav */; };
+		C99C8D35197BBDB60066FA46 /* syn_hh20.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CAB197BBDB60066FA46 /* syn_hh20.wav */; };
+		C99C8D36197BBDB60066FA46 /* syn_kick01.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CAC197BBDB60066FA46 /* syn_kick01.wav */; };
+		C99C8D37197BBDB60066FA46 /* syn_kick02.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CAD197BBDB60066FA46 /* syn_kick02.wav */; };
+		C99C8D38197BBDB60066FA46 /* syn_kick03.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CAE197BBDB60066FA46 /* syn_kick03.wav */; };
+		C99C8D39197BBDB60066FA46 /* syn_kick04.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CAF197BBDB60066FA46 /* syn_kick04.wav */; };
+		C99C8D3A197BBDB60066FA46 /* syn_kick05.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CB0197BBDB60066FA46 /* syn_kick05.wav */; };
+		C99C8D3B197BBDB60066FA46 /* syn_kick06.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CB1197BBDB60066FA46 /* syn_kick06.wav */; };
+		C99C8D3C197BBDB60066FA46 /* syn_kick07.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CB2197BBDB60066FA46 /* syn_kick07.wav */; };
+		C99C8D3D197BBDB60066FA46 /* syn_kick08.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CB3197BBDB60066FA46 /* syn_kick08.wav */; };
+		C99C8D3E197BBDB60066FA46 /* syn_kick09.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CB4197BBDB60066FA46 /* syn_kick09.wav */; };
+		C99C8D3F197BBDB60066FA46 /* syn_kick10.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CB5197BBDB60066FA46 /* syn_kick10.wav */; };
+		C99C8D40197BBDB60066FA46 /* syn_kick11.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CB6197BBDB60066FA46 /* syn_kick11.wav */; };
+		C99C8D41197BBDB60066FA46 /* syn_kick12.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CB7197BBDB60066FA46 /* syn_kick12.wav */; };
+		C99C8D42197BBDB60066FA46 /* syn_kick13.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CB8197BBDB60066FA46 /* syn_kick13.wav */; };
+		C99C8D43197BBDB60066FA46 /* syn_kick14.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CB9197BBDB60066FA46 /* syn_kick14.wav */; };
+		C99C8D44197BBDB60066FA46 /* syn_kick15.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CBA197BBDB60066FA46 /* syn_kick15.wav */; };
+		C99C8D45197BBDB60066FA46 /* syn_kick16.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CBB197BBDB60066FA46 /* syn_kick16.wav */; };
+		C99C8D46197BBDB60066FA46 /* syn_kick17.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CBC197BBDB60066FA46 /* syn_kick17.wav */; };
+		C99C8D47197BBDB60066FA46 /* syn_kick18.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CBD197BBDB60066FA46 /* syn_kick18.wav */; };
+		C99C8D48197BBDB60066FA46 /* syn_kick19.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CBE197BBDB60066FA46 /* syn_kick19.wav */; };
+		C99C8D49197BBDB60066FA46 /* syn_kick20.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CBF197BBDB60066FA46 /* syn_kick20.wav */; };
+		C99C8D4A197BBDB60066FA46 /* syn_perc01.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CC0197BBDB60066FA46 /* syn_perc01.wav */; };
+		C99C8D4B197BBDB60066FA46 /* syn_perc02.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CC1197BBDB60066FA46 /* syn_perc02.wav */; };
+		C99C8D4C197BBDB60066FA46 /* syn_perc03.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CC2197BBDB60066FA46 /* syn_perc03.wav */; };
+		C99C8D4D197BBDB60066FA46 /* syn_perc04.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CC3197BBDB60066FA46 /* syn_perc04.wav */; };
+		C99C8D4E197BBDB60066FA46 /* syn_perc05.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CC4197BBDB60066FA46 /* syn_perc05.wav */; };
+		C99C8D4F197BBDB60066FA46 /* syn_perc06.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CC5197BBDB60066FA46 /* syn_perc06.wav */; };
+		C99C8D50197BBDB60066FA46 /* syn_perc07.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CC6197BBDB60066FA46 /* syn_perc07.wav */; };
+		C99C8D51197BBDB60066FA46 /* syn_ride01.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CC7197BBDB60066FA46 /* syn_ride01.wav */; };
+		C99C8D52197BBDB60066FA46 /* syn_ride02.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CC8197BBDB60066FA46 /* syn_ride02.wav */; };
+		C99C8D53197BBDB60066FA46 /* syn_ride03.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CC9197BBDB60066FA46 /* syn_ride03.wav */; };
+		C99C8D54197BBDB60066FA46 /* syn_ride04.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CCA197BBDB60066FA46 /* syn_ride04.wav */; };
+		C99C8D55197BBDB60066FA46 /* syn_ride05.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CCB197BBDB60066FA46 /* syn_ride05.wav */; };
+		C99C8D56197BBDB60066FA46 /* syn_ride06.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CCC197BBDB60066FA46 /* syn_ride06.wav */; };
+		C99C8D57197BBDB60066FA46 /* syn_ride07.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CCD197BBDB60066FA46 /* syn_ride07.wav */; };
+		C99C8D58197BBDB60066FA46 /* syn_ride08.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CCE197BBDB60066FA46 /* syn_ride08.wav */; };
+		C99C8D59197BBDB60066FA46 /* syn_rim01.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CCF197BBDB60066FA46 /* syn_rim01.wav */; };
+		C99C8D5A197BBDB60066FA46 /* syn_rim02.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CD0197BBDB60066FA46 /* syn_rim02.wav */; };
+		C99C8D5B197BBDB60066FA46 /* syn_rim03.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CD1197BBDB60066FA46 /* syn_rim03.wav */; };
+		C99C8D5C197BBDB60066FA46 /* syn_rim04.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CD2197BBDB60066FA46 /* syn_rim04.wav */; };
+		C99C8D5D197BBDB60066FA46 /* syn_rim05.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CD3197BBDB60066FA46 /* syn_rim05.wav */; };
+		C99C8D5E197BBDB60066FA46 /* syn_rim06.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CD4197BBDB60066FA46 /* syn_rim06.wav */; };
+		C99C8D5F197BBDB60066FA46 /* syn_rim07.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CD5197BBDB60066FA46 /* syn_rim07.wav */; };
+		C99C8D60197BBDB60066FA46 /* syn_sd01.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CD6197BBDB60066FA46 /* syn_sd01.wav */; };
+		C99C8D61197BBDB60066FA46 /* syn_sd02.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CD7197BBDB60066FA46 /* syn_sd02.wav */; };
+		C99C8D62197BBDB60066FA46 /* syn_sd03.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CD8197BBDB60066FA46 /* syn_sd03.wav */; };
+		C99C8D63197BBDB60066FA46 /* syn_sd04.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CD9197BBDB60066FA46 /* syn_sd04.wav */; };
+		C99C8D64197BBDB60066FA46 /* syn_sd05.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CDA197BBDB60066FA46 /* syn_sd05.wav */; };
+		C99C8D65197BBDB60066FA46 /* syn_sd06.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CDB197BBDB60066FA46 /* syn_sd06.wav */; };
+		C99C8D66197BBDB60066FA46 /* syn_sd07.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CDC197BBDB60066FA46 /* syn_sd07.wav */; };
+		C99C8D67197BBDB60066FA46 /* syn_sd08.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CDD197BBDB60066FA46 /* syn_sd08.wav */; };
+		C99C8D68197BBDB60066FA46 /* syn_sd09.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CDE197BBDB60066FA46 /* syn_sd09.wav */; };
+		C99C8D69197BBDB60066FA46 /* syn_sd10.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CDF197BBDB60066FA46 /* syn_sd10.wav */; };
+		C99C8D6A197BBDB60066FA46 /* syn_sd11.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CE0197BBDB60066FA46 /* syn_sd11.wav */; };
+		C99C8D6B197BBDB60066FA46 /* syn_sd12.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CE1197BBDB60066FA46 /* syn_sd12.wav */; };
+		C99C8D6C197BBDB60066FA46 /* syn_sd13.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CE2197BBDB60066FA46 /* syn_sd13.wav */; };
+		C99C8D6D197BBDB60066FA46 /* syn_sd14.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CE3197BBDB60066FA46 /* syn_sd14.wav */; };
+		C99C8D6E197BBDB60066FA46 /* syn_sd15.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CE4197BBDB60066FA46 /* syn_sd15.wav */; };
+		C99C8D6F197BBDB60066FA46 /* syn_sd16.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CE5197BBDB60066FA46 /* syn_sd16.wav */; };
+		C99C8D70197BBDB60066FA46 /* syn_sd17.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CE6197BBDB60066FA46 /* syn_sd17.wav */; };
+		C99C8D71197BBDB60066FA46 /* syn_sd18.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CE7197BBDB60066FA46 /* syn_sd18.wav */; };
+		C99C8D72197BBDB60066FA46 /* syn_sd19.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CE8197BBDB60066FA46 /* syn_sd19.wav */; };
+		C99C8D73197BBDB60066FA46 /* syn_sd20.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CE9197BBDB60066FA46 /* syn_sd20.wav */; };
+		C99C8D74197BBDB60066FA46 /* syn_shaker01.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CEA197BBDB60066FA46 /* syn_shaker01.wav */; };
+		C99C8D75197BBDB60066FA46 /* syn_shaker02.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CEB197BBDB60066FA46 /* syn_shaker02.wav */; };
+		C99C8D76197BBDB60066FA46 /* syn_shaker03.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CEC197BBDB60066FA46 /* syn_shaker03.wav */; };
+		C99C8D77197BBDB60066FA46 /* syn_shaker04.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CED197BBDB60066FA46 /* syn_shaker04.wav */; };
+		C99C8D78197BBDB60066FA46 /* syn_shaker05.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CEE197BBDB60066FA46 /* syn_shaker05.wav */; };
+		C99C8D79197BBDB60066FA46 /* syn_shaker06.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CEF197BBDB60066FA46 /* syn_shaker06.wav */; };
+		C99C8D7A197BBDB60066FA46 /* syn_shaker07.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CF0197BBDB60066FA46 /* syn_shaker07.wav */; };
+		C99C8D7B197BBDB60066FA46 /* syn_shaker08.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CF1197BBDB60066FA46 /* syn_shaker08.wav */; };
+		C99C8D7C197BBDB60066FA46 /* syn_tom01.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CF2197BBDB60066FA46 /* syn_tom01.wav */; };
+		C99C8D7D197BBDB60066FA46 /* syn_tom02.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CF3197BBDB60066FA46 /* syn_tom02.wav */; };
+		C99C8D7E197BBDB60066FA46 /* syn_tom03.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CF4197BBDB60066FA46 /* syn_tom03.wav */; };
+		C99C8D7F197BBDB60066FA46 /* syn_tom04.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CF5197BBDB60066FA46 /* syn_tom04.wav */; };
+		C99C8D80197BBDB60066FA46 /* syn_tom05.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CF6197BBDB60066FA46 /* syn_tom05.wav */; };
+		C99C8D81197BBDB60066FA46 /* syn_tom06.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CF7197BBDB60066FA46 /* syn_tom06.wav */; };
+		C99C8D82197BBDB60066FA46 /* syn_tom07.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CF8197BBDB60066FA46 /* syn_tom07.wav */; };
+		C99C8D83197BBDB60066FA46 /* syn_tom08.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CF9197BBDB60066FA46 /* syn_tom08.wav */; };
+		C99C8D84197BBDB60066FA46 /* syn_zap01.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CFA197BBDB60066FA46 /* syn_zap01.wav */; };
+		C99C8D85197BBDB60066FA46 /* syn_zap02.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CFB197BBDB60066FA46 /* syn_zap02.wav */; };
+		C99C8D86197BBDB60066FA46 /* syn_zap03.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CFC197BBDB60066FA46 /* syn_zap03.wav */; };
+		C99C8D87197BBDB60066FA46 /* syn_zap04.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CFD197BBDB60066FA46 /* syn_zap04.wav */; };
+		C99C8D88197BBDB60066FA46 /* syn_zap05.wav in Resources */ = {isa = PBXBuildFile; fileRef = C99C8CFE197BBDB60066FA46 /* syn_zap05.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C99C8C5C19799CD30066FA46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C99C8C2E19799CD30066FA46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C99C8C3519799CD30066FA46;
+			remoteInfo = Midipad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C99C8C3619799CD30066FA46 /* Midipad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Midipad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99C8C3919799CD30066FA46 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C99C8C3B19799CD30066FA46 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C99C8C3D19799CD30066FA46 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C99C8C4119799CD30066FA46 /* Midipad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Midipad-Info.plist"; sourceTree = "<group>"; };
+		C99C8C4319799CD30066FA46 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C99C8C4519799CD30066FA46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C99C8C4719799CD30066FA46 /* Midipad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Midipad-Prefix.pch"; sourceTree = "<group>"; };
+		C99C8C4819799CD30066FA46 /* MidiAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MidiAppDelegate.h; sourceTree = "<group>"; };
+		C99C8C4919799CD30066FA46 /* MidiAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MidiAppDelegate.m; sourceTree = "<group>"; };
+		C99C8C4C19799CD30066FA46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C99C8C4E19799CD30066FA46 /* MidiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MidiViewController.h; sourceTree = "<group>"; };
+		C99C8C4F19799CD30066FA46 /* MidiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MidiViewController.m; sourceTree = "<group>"; };
+		C99C8C5119799CD30066FA46 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C99C8C5719799CD30066FA46 /* MidipadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MidipadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99C8C5819799CD30066FA46 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C99C8C6019799CD30066FA46 /* MidipadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MidipadTests-Info.plist"; sourceTree = "<group>"; };
+		C99C8C6219799CD30066FA46 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C99C8C6419799CD30066FA46 /* MidipadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MidipadTests.m; sourceTree = "<group>"; };
+		C99C8C75197BBDB60066FA46 /* syn_clap01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_clap01.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_clap01.wav"; sourceTree = "<group>"; };
+		C99C8C76197BBDB60066FA46 /* syn_clap02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_clap02.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_clap02.wav"; sourceTree = "<group>"; };
+		C99C8C77197BBDB60066FA46 /* syn_clap03.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_clap03.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_clap03.wav"; sourceTree = "<group>"; };
+		C99C8C78197BBDB60066FA46 /* syn_clap04.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_clap04.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_clap04.wav"; sourceTree = "<group>"; };
+		C99C8C79197BBDB60066FA46 /* syn_clap05.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_clap05.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_clap05.wav"; sourceTree = "<group>"; };
+		C99C8C7A197BBDB60066FA46 /* syn_clap06.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_clap06.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_clap06.wav"; sourceTree = "<group>"; };
+		C99C8C7B197BBDB60066FA46 /* syn_clap07.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_clap07.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_clap07.wav"; sourceTree = "<group>"; };
+		C99C8C7C197BBDB60066FA46 /* syn_clap08.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_clap08.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_clap08.wav"; sourceTree = "<group>"; };
+		C99C8C7D197BBDB60066FA46 /* syn_clap09.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_clap09.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_clap09.wav"; sourceTree = "<group>"; };
+		C99C8C7E197BBDB60066FA46 /* syn_clap10.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_clap10.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_clap10.wav"; sourceTree = "<group>"; };
+		C99C8C7F197BBDB60066FA46 /* syn_clap11.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_clap11.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_clap11.wav"; sourceTree = "<group>"; };
+		C99C8C80197BBDB60066FA46 /* syn_clap12.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_clap12.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_clap12.wav"; sourceTree = "<group>"; };
+		C99C8C81197BBDB60066FA46 /* syn_clap13.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_clap13.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_clap13.wav"; sourceTree = "<group>"; };
+		C99C8C82197BBDB60066FA46 /* syn_clap14.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_clap14.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_clap14.wav"; sourceTree = "<group>"; };
+		C99C8C83197BBDB60066FA46 /* syn_clap15.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_clap15.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_clap15.wav"; sourceTree = "<group>"; };
+		C99C8C84197BBDB60066FA46 /* syn_clap16.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_clap16.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_clap16.wav"; sourceTree = "<group>"; };
+		C99C8C85197BBDB60066FA46 /* syn_clap17.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_clap17.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_clap17.wav"; sourceTree = "<group>"; };
+		C99C8C86197BBDB60066FA46 /* syn_clap18.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_clap18.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_clap18.wav"; sourceTree = "<group>"; };
+		C99C8C87197BBDB60066FA46 /* syn_clap19.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_clap19.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_clap19.wav"; sourceTree = "<group>"; };
+		C99C8C88197BBDB60066FA46 /* syn_clap20.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_clap20.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_clap20.wav"; sourceTree = "<group>"; };
+		C99C8C89197BBDB60066FA46 /* syn_cowbell01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_cowbell01.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_cowbell01.wav"; sourceTree = "<group>"; };
+		C99C8C8A197BBDB60066FA46 /* syn_cowbell02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_cowbell02.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_cowbell02.wav"; sourceTree = "<group>"; };
+		C99C8C8B197BBDB60066FA46 /* syn_cowbell03.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_cowbell03.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_cowbell03.wav"; sourceTree = "<group>"; };
+		C99C8C8C197BBDB60066FA46 /* syn_fx01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_fx01.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_fx01.wav"; sourceTree = "<group>"; };
+		C99C8C8D197BBDB60066FA46 /* syn_fx02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_fx02.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_fx02.wav"; sourceTree = "<group>"; };
+		C99C8C8E197BBDB60066FA46 /* syn_fx03.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_fx03.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_fx03.wav"; sourceTree = "<group>"; };
+		C99C8C8F197BBDB60066FA46 /* syn_fx04.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_fx04.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_fx04.wav"; sourceTree = "<group>"; };
+		C99C8C90197BBDB60066FA46 /* syn_fx05.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_fx05.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_fx05.wav"; sourceTree = "<group>"; };
+		C99C8C91197BBDB60066FA46 /* syn_fx06.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_fx06.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_fx06.wav"; sourceTree = "<group>"; };
+		C99C8C92197BBDB60066FA46 /* syn_fx07.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_fx07.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_fx07.wav"; sourceTree = "<group>"; };
+		C99C8C93197BBDB60066FA46 /* syn_fx08.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_fx08.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_fx08.wav"; sourceTree = "<group>"; };
+		C99C8C94197BBDB60066FA46 /* syn_fx09.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_fx09.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_fx09.wav"; sourceTree = "<group>"; };
+		C99C8C95197BBDB60066FA46 /* syn_fx10.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_fx10.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_fx10.wav"; sourceTree = "<group>"; };
+		C99C8C96197BBDB60066FA46 /* syn_fx11.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_fx11.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_fx11.wav"; sourceTree = "<group>"; };
+		C99C8C97197BBDB60066FA46 /* syn_fx12.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_fx12.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_fx12.wav"; sourceTree = "<group>"; };
+		C99C8C98197BBDB60066FA46 /* syn_hh01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_hh01.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_hh01.wav"; sourceTree = "<group>"; };
+		C99C8C99197BBDB60066FA46 /* syn_hh02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_hh02.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_hh02.wav"; sourceTree = "<group>"; };
+		C99C8C9A197BBDB60066FA46 /* syn_hh03.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_hh03.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_hh03.wav"; sourceTree = "<group>"; };
+		C99C8C9B197BBDB60066FA46 /* syn_hh04.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_hh04.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_hh04.wav"; sourceTree = "<group>"; };
+		C99C8C9C197BBDB60066FA46 /* syn_hh05.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_hh05.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_hh05.wav"; sourceTree = "<group>"; };
+		C99C8C9D197BBDB60066FA46 /* syn_hh06.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_hh06.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_hh06.wav"; sourceTree = "<group>"; };
+		C99C8C9E197BBDB60066FA46 /* syn_hh07.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_hh07.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_hh07.wav"; sourceTree = "<group>"; };
+		C99C8C9F197BBDB60066FA46 /* syn_hh08.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_hh08.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_hh08.wav"; sourceTree = "<group>"; };
+		C99C8CA0197BBDB60066FA46 /* syn_hh09.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_hh09.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_hh09.wav"; sourceTree = "<group>"; };
+		C99C8CA1197BBDB60066FA46 /* syn_hh10.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_hh10.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_hh10.wav"; sourceTree = "<group>"; };
+		C99C8CA2197BBDB60066FA46 /* syn_hh11.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_hh11.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_hh11.wav"; sourceTree = "<group>"; };
+		C99C8CA3197BBDB60066FA46 /* syn_hh12.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_hh12.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_hh12.wav"; sourceTree = "<group>"; };
+		C99C8CA4197BBDB60066FA46 /* syn_hh13.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_hh13.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_hh13.wav"; sourceTree = "<group>"; };
+		C99C8CA5197BBDB60066FA46 /* syn_hh14.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_hh14.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_hh14.wav"; sourceTree = "<group>"; };
+		C99C8CA6197BBDB60066FA46 /* syn_hh15.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_hh15.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_hh15.wav"; sourceTree = "<group>"; };
+		C99C8CA7197BBDB60066FA46 /* syn_hh16.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_hh16.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_hh16.wav"; sourceTree = "<group>"; };
+		C99C8CA8197BBDB60066FA46 /* syn_hh17.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_hh17.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_hh17.wav"; sourceTree = "<group>"; };
+		C99C8CA9197BBDB60066FA46 /* syn_hh18.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_hh18.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_hh18.wav"; sourceTree = "<group>"; };
+		C99C8CAA197BBDB60066FA46 /* syn_hh19.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_hh19.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_hh19.wav"; sourceTree = "<group>"; };
+		C99C8CAB197BBDB60066FA46 /* syn_hh20.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_hh20.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_hh20.wav"; sourceTree = "<group>"; };
+		C99C8CAC197BBDB60066FA46 /* syn_kick01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_kick01.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_kick01.wav"; sourceTree = "<group>"; };
+		C99C8CAD197BBDB60066FA46 /* syn_kick02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_kick02.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_kick02.wav"; sourceTree = "<group>"; };
+		C99C8CAE197BBDB60066FA46 /* syn_kick03.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_kick03.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_kick03.wav"; sourceTree = "<group>"; };
+		C99C8CAF197BBDB60066FA46 /* syn_kick04.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_kick04.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_kick04.wav"; sourceTree = "<group>"; };
+		C99C8CB0197BBDB60066FA46 /* syn_kick05.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_kick05.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_kick05.wav"; sourceTree = "<group>"; };
+		C99C8CB1197BBDB60066FA46 /* syn_kick06.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_kick06.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_kick06.wav"; sourceTree = "<group>"; };
+		C99C8CB2197BBDB60066FA46 /* syn_kick07.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_kick07.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_kick07.wav"; sourceTree = "<group>"; };
+		C99C8CB3197BBDB60066FA46 /* syn_kick08.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_kick08.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_kick08.wav"; sourceTree = "<group>"; };
+		C99C8CB4197BBDB60066FA46 /* syn_kick09.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_kick09.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_kick09.wav"; sourceTree = "<group>"; };
+		C99C8CB5197BBDB60066FA46 /* syn_kick10.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_kick10.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_kick10.wav"; sourceTree = "<group>"; };
+		C99C8CB6197BBDB60066FA46 /* syn_kick11.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_kick11.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_kick11.wav"; sourceTree = "<group>"; };
+		C99C8CB7197BBDB60066FA46 /* syn_kick12.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_kick12.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_kick12.wav"; sourceTree = "<group>"; };
+		C99C8CB8197BBDB60066FA46 /* syn_kick13.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_kick13.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_kick13.wav"; sourceTree = "<group>"; };
+		C99C8CB9197BBDB60066FA46 /* syn_kick14.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_kick14.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_kick14.wav"; sourceTree = "<group>"; };
+		C99C8CBA197BBDB60066FA46 /* syn_kick15.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_kick15.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_kick15.wav"; sourceTree = "<group>"; };
+		C99C8CBB197BBDB60066FA46 /* syn_kick16.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_kick16.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_kick16.wav"; sourceTree = "<group>"; };
+		C99C8CBC197BBDB60066FA46 /* syn_kick17.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_kick17.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_kick17.wav"; sourceTree = "<group>"; };
+		C99C8CBD197BBDB60066FA46 /* syn_kick18.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_kick18.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_kick18.wav"; sourceTree = "<group>"; };
+		C99C8CBE197BBDB60066FA46 /* syn_kick19.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_kick19.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_kick19.wav"; sourceTree = "<group>"; };
+		C99C8CBF197BBDB60066FA46 /* syn_kick20.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_kick20.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_kick20.wav"; sourceTree = "<group>"; };
+		C99C8CC0197BBDB60066FA46 /* syn_perc01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_perc01.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_perc01.wav"; sourceTree = "<group>"; };
+		C99C8CC1197BBDB60066FA46 /* syn_perc02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_perc02.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_perc02.wav"; sourceTree = "<group>"; };
+		C99C8CC2197BBDB60066FA46 /* syn_perc03.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_perc03.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_perc03.wav"; sourceTree = "<group>"; };
+		C99C8CC3197BBDB60066FA46 /* syn_perc04.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_perc04.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_perc04.wav"; sourceTree = "<group>"; };
+		C99C8CC4197BBDB60066FA46 /* syn_perc05.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_perc05.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_perc05.wav"; sourceTree = "<group>"; };
+		C99C8CC5197BBDB60066FA46 /* syn_perc06.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_perc06.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_perc06.wav"; sourceTree = "<group>"; };
+		C99C8CC6197BBDB60066FA46 /* syn_perc07.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_perc07.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_perc07.wav"; sourceTree = "<group>"; };
+		C99C8CC7197BBDB60066FA46 /* syn_ride01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_ride01.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_ride01.wav"; sourceTree = "<group>"; };
+		C99C8CC8197BBDB60066FA46 /* syn_ride02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_ride02.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_ride02.wav"; sourceTree = "<group>"; };
+		C99C8CC9197BBDB60066FA46 /* syn_ride03.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_ride03.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_ride03.wav"; sourceTree = "<group>"; };
+		C99C8CCA197BBDB60066FA46 /* syn_ride04.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_ride04.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_ride04.wav"; sourceTree = "<group>"; };
+		C99C8CCB197BBDB60066FA46 /* syn_ride05.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_ride05.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_ride05.wav"; sourceTree = "<group>"; };
+		C99C8CCC197BBDB60066FA46 /* syn_ride06.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_ride06.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_ride06.wav"; sourceTree = "<group>"; };
+		C99C8CCD197BBDB60066FA46 /* syn_ride07.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_ride07.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_ride07.wav"; sourceTree = "<group>"; };
+		C99C8CCE197BBDB60066FA46 /* syn_ride08.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_ride08.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_ride08.wav"; sourceTree = "<group>"; };
+		C99C8CCF197BBDB60066FA46 /* syn_rim01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_rim01.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_rim01.wav"; sourceTree = "<group>"; };
+		C99C8CD0197BBDB60066FA46 /* syn_rim02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_rim02.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_rim02.wav"; sourceTree = "<group>"; };
+		C99C8CD1197BBDB60066FA46 /* syn_rim03.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_rim03.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_rim03.wav"; sourceTree = "<group>"; };
+		C99C8CD2197BBDB60066FA46 /* syn_rim04.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_rim04.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_rim04.wav"; sourceTree = "<group>"; };
+		C99C8CD3197BBDB60066FA46 /* syn_rim05.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_rim05.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_rim05.wav"; sourceTree = "<group>"; };
+		C99C8CD4197BBDB60066FA46 /* syn_rim06.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_rim06.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_rim06.wav"; sourceTree = "<group>"; };
+		C99C8CD5197BBDB60066FA46 /* syn_rim07.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_rim07.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_rim07.wav"; sourceTree = "<group>"; };
+		C99C8CD6197BBDB60066FA46 /* syn_sd01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_sd01.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_sd01.wav"; sourceTree = "<group>"; };
+		C99C8CD7197BBDB60066FA46 /* syn_sd02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_sd02.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_sd02.wav"; sourceTree = "<group>"; };
+		C99C8CD8197BBDB60066FA46 /* syn_sd03.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_sd03.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_sd03.wav"; sourceTree = "<group>"; };
+		C99C8CD9197BBDB60066FA46 /* syn_sd04.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_sd04.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_sd04.wav"; sourceTree = "<group>"; };
+		C99C8CDA197BBDB60066FA46 /* syn_sd05.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_sd05.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_sd05.wav"; sourceTree = "<group>"; };
+		C99C8CDB197BBDB60066FA46 /* syn_sd06.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_sd06.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_sd06.wav"; sourceTree = "<group>"; };
+		C99C8CDC197BBDB60066FA46 /* syn_sd07.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_sd07.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_sd07.wav"; sourceTree = "<group>"; };
+		C99C8CDD197BBDB60066FA46 /* syn_sd08.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_sd08.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_sd08.wav"; sourceTree = "<group>"; };
+		C99C8CDE197BBDB60066FA46 /* syn_sd09.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_sd09.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_sd09.wav"; sourceTree = "<group>"; };
+		C99C8CDF197BBDB60066FA46 /* syn_sd10.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_sd10.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_sd10.wav"; sourceTree = "<group>"; };
+		C99C8CE0197BBDB60066FA46 /* syn_sd11.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_sd11.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_sd11.wav"; sourceTree = "<group>"; };
+		C99C8CE1197BBDB60066FA46 /* syn_sd12.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_sd12.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_sd12.wav"; sourceTree = "<group>"; };
+		C99C8CE2197BBDB60066FA46 /* syn_sd13.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_sd13.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_sd13.wav"; sourceTree = "<group>"; };
+		C99C8CE3197BBDB60066FA46 /* syn_sd14.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_sd14.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_sd14.wav"; sourceTree = "<group>"; };
+		C99C8CE4197BBDB60066FA46 /* syn_sd15.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_sd15.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_sd15.wav"; sourceTree = "<group>"; };
+		C99C8CE5197BBDB60066FA46 /* syn_sd16.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_sd16.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_sd16.wav"; sourceTree = "<group>"; };
+		C99C8CE6197BBDB60066FA46 /* syn_sd17.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_sd17.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_sd17.wav"; sourceTree = "<group>"; };
+		C99C8CE7197BBDB60066FA46 /* syn_sd18.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_sd18.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_sd18.wav"; sourceTree = "<group>"; };
+		C99C8CE8197BBDB60066FA46 /* syn_sd19.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_sd19.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_sd19.wav"; sourceTree = "<group>"; };
+		C99C8CE9197BBDB60066FA46 /* syn_sd20.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_sd20.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_sd20.wav"; sourceTree = "<group>"; };
+		C99C8CEA197BBDB60066FA46 /* syn_shaker01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_shaker01.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_shaker01.wav"; sourceTree = "<group>"; };
+		C99C8CEB197BBDB60066FA46 /* syn_shaker02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_shaker02.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_shaker02.wav"; sourceTree = "<group>"; };
+		C99C8CEC197BBDB60066FA46 /* syn_shaker03.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_shaker03.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_shaker03.wav"; sourceTree = "<group>"; };
+		C99C8CED197BBDB60066FA46 /* syn_shaker04.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_shaker04.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_shaker04.wav"; sourceTree = "<group>"; };
+		C99C8CEE197BBDB60066FA46 /* syn_shaker05.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_shaker05.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_shaker05.wav"; sourceTree = "<group>"; };
+		C99C8CEF197BBDB60066FA46 /* syn_shaker06.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_shaker06.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_shaker06.wav"; sourceTree = "<group>"; };
+		C99C8CF0197BBDB60066FA46 /* syn_shaker07.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_shaker07.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_shaker07.wav"; sourceTree = "<group>"; };
+		C99C8CF1197BBDB60066FA46 /* syn_shaker08.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_shaker08.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_shaker08.wav"; sourceTree = "<group>"; };
+		C99C8CF2197BBDB60066FA46 /* syn_tom01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_tom01.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_tom01.wav"; sourceTree = "<group>"; };
+		C99C8CF3197BBDB60066FA46 /* syn_tom02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_tom02.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_tom02.wav"; sourceTree = "<group>"; };
+		C99C8CF4197BBDB60066FA46 /* syn_tom03.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_tom03.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_tom03.wav"; sourceTree = "<group>"; };
+		C99C8CF5197BBDB60066FA46 /* syn_tom04.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_tom04.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_tom04.wav"; sourceTree = "<group>"; };
+		C99C8CF6197BBDB60066FA46 /* syn_tom05.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_tom05.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_tom05.wav"; sourceTree = "<group>"; };
+		C99C8CF7197BBDB60066FA46 /* syn_tom06.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_tom06.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_tom06.wav"; sourceTree = "<group>"; };
+		C99C8CF8197BBDB60066FA46 /* syn_tom07.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_tom07.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_tom07.wav"; sourceTree = "<group>"; };
+		C99C8CF9197BBDB60066FA46 /* syn_tom08.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_tom08.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_tom08.wav"; sourceTree = "<group>"; };
+		C99C8CFA197BBDB60066FA46 /* syn_zap01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_zap01.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_zap01.wav"; sourceTree = "<group>"; };
+		C99C8CFB197BBDB60066FA46 /* syn_zap02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_zap02.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_zap02.wav"; sourceTree = "<group>"; };
+		C99C8CFC197BBDB60066FA46 /* syn_zap03.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_zap03.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_zap03.wav"; sourceTree = "<group>"; };
+		C99C8CFD197BBDB60066FA46 /* syn_zap04.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_zap04.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_zap04.wav"; sourceTree = "<group>"; };
+		C99C8CFE197BBDB60066FA46 /* syn_zap05.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = syn_zap05.wav; path = "../../../Desktop/rhythm-lab.com_synthdrums_vol2/syn_zap05.wav"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C99C8C3319799CD30066FA46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99C8C3C19799CD30066FA46 /* CoreGraphics.framework in Frameworks */,
+				C99C8C3E19799CD30066FA46 /* UIKit.framework in Frameworks */,
+				C99C8C3A19799CD30066FA46 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99C8C5419799CD30066FA46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99C8C5919799CD30066FA46 /* XCTest.framework in Frameworks */,
+				C99C8C5B19799CD30066FA46 /* UIKit.framework in Frameworks */,
+				C99C8C5A19799CD30066FA46 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C99C8C2D19799CD30066FA46 = {
+			isa = PBXGroup;
+			children = (
+				C99C8C3F19799CD30066FA46 /* Midipad */,
+				C99C8C5E19799CD30066FA46 /* MidipadTests */,
+				C99C8C3819799CD30066FA46 /* Frameworks */,
+				C99C8C3719799CD30066FA46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C99C8C3719799CD30066FA46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C99C8C3619799CD30066FA46 /* Midipad.app */,
+				C99C8C5719799CD30066FA46 /* MidipadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C99C8C3819799CD30066FA46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C99C8C3919799CD30066FA46 /* Foundation.framework */,
+				C99C8C3B19799CD30066FA46 /* CoreGraphics.framework */,
+				C99C8C3D19799CD30066FA46 /* UIKit.framework */,
+				C99C8C5819799CD30066FA46 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C99C8C3F19799CD30066FA46 /* Midipad */ = {
+			isa = PBXGroup;
+			children = (
+				C99C8C4819799CD30066FA46 /* MidiAppDelegate.h */,
+				C99C8C4919799CD30066FA46 /* MidiAppDelegate.m */,
+				C99C8C4B19799CD30066FA46 /* Main.storyboard */,
+				C99C8C4E19799CD30066FA46 /* MidiViewController.h */,
+				C99C8C75197BBDB60066FA46 /* syn_clap01.wav */,
+				C99C8C76197BBDB60066FA46 /* syn_clap02.wav */,
+				C99C8C77197BBDB60066FA46 /* syn_clap03.wav */,
+				C99C8C78197BBDB60066FA46 /* syn_clap04.wav */,
+				C99C8C79197BBDB60066FA46 /* syn_clap05.wav */,
+				C99C8C7A197BBDB60066FA46 /* syn_clap06.wav */,
+				C99C8C7B197BBDB60066FA46 /* syn_clap07.wav */,
+				C99C8C7C197BBDB60066FA46 /* syn_clap08.wav */,
+				C99C8C7D197BBDB60066FA46 /* syn_clap09.wav */,
+				C99C8C7E197BBDB60066FA46 /* syn_clap10.wav */,
+				C99C8C7F197BBDB60066FA46 /* syn_clap11.wav */,
+				C99C8C80197BBDB60066FA46 /* syn_clap12.wav */,
+				C99C8C81197BBDB60066FA46 /* syn_clap13.wav */,
+				C99C8C82197BBDB60066FA46 /* syn_clap14.wav */,
+				C99C8C83197BBDB60066FA46 /* syn_clap15.wav */,
+				C99C8C84197BBDB60066FA46 /* syn_clap16.wav */,
+				C99C8C85197BBDB60066FA46 /* syn_clap17.wav */,
+				C99C8C86197BBDB60066FA46 /* syn_clap18.wav */,
+				C99C8C87197BBDB60066FA46 /* syn_clap19.wav */,
+				C99C8C88197BBDB60066FA46 /* syn_clap20.wav */,
+				C99C8C89197BBDB60066FA46 /* syn_cowbell01.wav */,
+				C99C8C8A197BBDB60066FA46 /* syn_cowbell02.wav */,
+				C99C8C8B197BBDB60066FA46 /* syn_cowbell03.wav */,
+				C99C8C8C197BBDB60066FA46 /* syn_fx01.wav */,
+				C99C8C8D197BBDB60066FA46 /* syn_fx02.wav */,
+				C99C8C8E197BBDB60066FA46 /* syn_fx03.wav */,
+				C99C8C8F197BBDB60066FA46 /* syn_fx04.wav */,
+				C99C8C90197BBDB60066FA46 /* syn_fx05.wav */,
+				C99C8C91197BBDB60066FA46 /* syn_fx06.wav */,
+				C99C8C92197BBDB60066FA46 /* syn_fx07.wav */,
+				C99C8C93197BBDB60066FA46 /* syn_fx08.wav */,
+				C99C8C94197BBDB60066FA46 /* syn_fx09.wav */,
+				C99C8C95197BBDB60066FA46 /* syn_fx10.wav */,
+				C99C8C96197BBDB60066FA46 /* syn_fx11.wav */,
+				C99C8C97197BBDB60066FA46 /* syn_fx12.wav */,
+				C99C8C98197BBDB60066FA46 /* syn_hh01.wav */,
+				C99C8C99197BBDB60066FA46 /* syn_hh02.wav */,
+				C99C8C9A197BBDB60066FA46 /* syn_hh03.wav */,
+				C99C8C9B197BBDB60066FA46 /* syn_hh04.wav */,
+				C99C8C9C197BBDB60066FA46 /* syn_hh05.wav */,
+				C99C8C9D197BBDB60066FA46 /* syn_hh06.wav */,
+				C99C8C9E197BBDB60066FA46 /* syn_hh07.wav */,
+				C99C8C9F197BBDB60066FA46 /* syn_hh08.wav */,
+				C99C8CA0197BBDB60066FA46 /* syn_hh09.wav */,
+				C99C8CA1197BBDB60066FA46 /* syn_hh10.wav */,
+				C99C8CA2197BBDB60066FA46 /* syn_hh11.wav */,
+				C99C8CA3197BBDB60066FA46 /* syn_hh12.wav */,
+				C99C8CA4197BBDB60066FA46 /* syn_hh13.wav */,
+				C99C8CA5197BBDB60066FA46 /* syn_hh14.wav */,
+				C99C8CA6197BBDB60066FA46 /* syn_hh15.wav */,
+				C99C8CA7197BBDB60066FA46 /* syn_hh16.wav */,
+				C99C8CA8197BBDB60066FA46 /* syn_hh17.wav */,
+				C99C8CA9197BBDB60066FA46 /* syn_hh18.wav */,
+				C99C8CAA197BBDB60066FA46 /* syn_hh19.wav */,
+				C99C8CAB197BBDB60066FA46 /* syn_hh20.wav */,
+				C99C8CAC197BBDB60066FA46 /* syn_kick01.wav */,
+				C99C8CAD197BBDB60066FA46 /* syn_kick02.wav */,
+				C99C8CAE197BBDB60066FA46 /* syn_kick03.wav */,
+				C99C8CAF197BBDB60066FA46 /* syn_kick04.wav */,
+				C99C8CB0197BBDB60066FA46 /* syn_kick05.wav */,
+				C99C8CB1197BBDB60066FA46 /* syn_kick06.wav */,
+				C99C8CB2197BBDB60066FA46 /* syn_kick07.wav */,
+				C99C8CB3197BBDB60066FA46 /* syn_kick08.wav */,
+				C99C8CB4197BBDB60066FA46 /* syn_kick09.wav */,
+				C99C8CB5197BBDB60066FA46 /* syn_kick10.wav */,
+				C99C8CB6197BBDB60066FA46 /* syn_kick11.wav */,
+				C99C8CB7197BBDB60066FA46 /* syn_kick12.wav */,
+				C99C8CB8197BBDB60066FA46 /* syn_kick13.wav */,
+				C99C8CB9197BBDB60066FA46 /* syn_kick14.wav */,
+				C99C8CBA197BBDB60066FA46 /* syn_kick15.wav */,
+				C99C8CBB197BBDB60066FA46 /* syn_kick16.wav */,
+				C99C8CBC197BBDB60066FA46 /* syn_kick17.wav */,
+				C99C8CBD197BBDB60066FA46 /* syn_kick18.wav */,
+				C99C8CBE197BBDB60066FA46 /* syn_kick19.wav */,
+				C99C8CBF197BBDB60066FA46 /* syn_kick20.wav */,
+				C99C8CC0197BBDB60066FA46 /* syn_perc01.wav */,
+				C99C8CC1197BBDB60066FA46 /* syn_perc02.wav */,
+				C99C8CC2197BBDB60066FA46 /* syn_perc03.wav */,
+				C99C8CC3197BBDB60066FA46 /* syn_perc04.wav */,
+				C99C8CC4197BBDB60066FA46 /* syn_perc05.wav */,
+				C99C8CC5197BBDB60066FA46 /* syn_perc06.wav */,
+				C99C8CC6197BBDB60066FA46 /* syn_perc07.wav */,
+				C99C8CC7197BBDB60066FA46 /* syn_ride01.wav */,
+				C99C8CC8197BBDB60066FA46 /* syn_ride02.wav */,
+				C99C8CC9197BBDB60066FA46 /* syn_ride03.wav */,
+				C99C8CCA197BBDB60066FA46 /* syn_ride04.wav */,
+				C99C8CCB197BBDB60066FA46 /* syn_ride05.wav */,
+				C99C8CCC197BBDB60066FA46 /* syn_ride06.wav */,
+				C99C8CCD197BBDB60066FA46 /* syn_ride07.wav */,
+				C99C8CCE197BBDB60066FA46 /* syn_ride08.wav */,
+				C99C8CCF197BBDB60066FA46 /* syn_rim01.wav */,
+				C99C8CD0197BBDB60066FA46 /* syn_rim02.wav */,
+				C99C8CD1197BBDB60066FA46 /* syn_rim03.wav */,
+				C99C8CD2197BBDB60066FA46 /* syn_rim04.wav */,
+				C99C8CD3197BBDB60066FA46 /* syn_rim05.wav */,
+				C99C8CD4197BBDB60066FA46 /* syn_rim06.wav */,
+				C99C8CD5197BBDB60066FA46 /* syn_rim07.wav */,
+				C99C8CD6197BBDB60066FA46 /* syn_sd01.wav */,
+				C99C8CD7197BBDB60066FA46 /* syn_sd02.wav */,
+				C99C8CD8197BBDB60066FA46 /* syn_sd03.wav */,
+				C99C8CD9197BBDB60066FA46 /* syn_sd04.wav */,
+				C99C8CDA197BBDB60066FA46 /* syn_sd05.wav */,
+				C99C8CDB197BBDB60066FA46 /* syn_sd06.wav */,
+				C99C8CDC197BBDB60066FA46 /* syn_sd07.wav */,
+				C99C8CDD197BBDB60066FA46 /* syn_sd08.wav */,
+				C99C8CDE197BBDB60066FA46 /* syn_sd09.wav */,
+				C99C8CDF197BBDB60066FA46 /* syn_sd10.wav */,
+				C99C8CE0197BBDB60066FA46 /* syn_sd11.wav */,
+				C99C8CE1197BBDB60066FA46 /* syn_sd12.wav */,
+				C99C8CE2197BBDB60066FA46 /* syn_sd13.wav */,
+				C99C8CE3197BBDB60066FA46 /* syn_sd14.wav */,
+				C99C8CE4197BBDB60066FA46 /* syn_sd15.wav */,
+				C99C8CE5197BBDB60066FA46 /* syn_sd16.wav */,
+				C99C8CE6197BBDB60066FA46 /* syn_sd17.wav */,
+				C99C8CE7197BBDB60066FA46 /* syn_sd18.wav */,
+				C99C8CE8197BBDB60066FA46 /* syn_sd19.wav */,
+				C99C8CE9197BBDB60066FA46 /* syn_sd20.wav */,
+				C99C8CEA197BBDB60066FA46 /* syn_shaker01.wav */,
+				C99C8CEB197BBDB60066FA46 /* syn_shaker02.wav */,
+				C99C8CEC197BBDB60066FA46 /* syn_shaker03.wav */,
+				C99C8CED197BBDB60066FA46 /* syn_shaker04.wav */,
+				C99C8CEE197BBDB60066FA46 /* syn_shaker05.wav */,
+				C99C8CEF197BBDB60066FA46 /* syn_shaker06.wav */,
+				C99C8CF0197BBDB60066FA46 /* syn_shaker07.wav */,
+				C99C8CF1197BBDB60066FA46 /* syn_shaker08.wav */,
+				C99C8CF2197BBDB60066FA46 /* syn_tom01.wav */,
+				C99C8CF3197BBDB60066FA46 /* syn_tom02.wav */,
+				C99C8CF4197BBDB60066FA46 /* syn_tom03.wav */,
+				C99C8CF5197BBDB60066FA46 /* syn_tom04.wav */,
+				C99C8CF6197BBDB60066FA46 /* syn_tom05.wav */,
+				C99C8CF7197BBDB60066FA46 /* syn_tom06.wav */,
+				C99C8CF8197BBDB60066FA46 /* syn_tom07.wav */,
+				C99C8CF9197BBDB60066FA46 /* syn_tom08.wav */,
+				C99C8CFA197BBDB60066FA46 /* syn_zap01.wav */,
+				C99C8CFB197BBDB60066FA46 /* syn_zap02.wav */,
+				C99C8CFC197BBDB60066FA46 /* syn_zap03.wav */,
+				C99C8CFD197BBDB60066FA46 /* syn_zap04.wav */,
+				C99C8CFE197BBDB60066FA46 /* syn_zap05.wav */,
+				C99C8C4F19799CD30066FA46 /* MidiViewController.m */,
+				C99C8C5119799CD30066FA46 /* Images.xcassets */,
+				C99C8C4019799CD30066FA46 /* Supporting Files */,
+			);
+			path = Midipad;
+			sourceTree = "<group>";
+		};
+		C99C8C4019799CD30066FA46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C99C8C4119799CD30066FA46 /* Midipad-Info.plist */,
+				C99C8C4219799CD30066FA46 /* InfoPlist.strings */,
+				C99C8C4519799CD30066FA46 /* main.m */,
+				C99C8C4719799CD30066FA46 /* Midipad-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C99C8C5E19799CD30066FA46 /* MidipadTests */ = {
+			isa = PBXGroup;
+			children = (
+				C99C8C6419799CD30066FA46 /* MidipadTests.m */,
+				C99C8C5F19799CD30066FA46 /* Supporting Files */,
+			);
+			path = MidipadTests;
+			sourceTree = "<group>";
+		};
+		C99C8C5F19799CD30066FA46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C99C8C6019799CD30066FA46 /* MidipadTests-Info.plist */,
+				C99C8C6119799CD30066FA46 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C99C8C3519799CD30066FA46 /* Midipad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C99C8C6819799CD30066FA46 /* Build configuration list for PBXNativeTarget "Midipad" */;
+			buildPhases = (
+				C99C8C3219799CD30066FA46 /* Sources */,
+				C99C8C3319799CD30066FA46 /* Frameworks */,
+				C99C8C3419799CD30066FA46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Midipad;
+			productName = Midipad;
+			productReference = C99C8C3619799CD30066FA46 /* Midipad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C99C8C5619799CD30066FA46 /* MidipadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C99C8C6B19799CD30066FA46 /* Build configuration list for PBXNativeTarget "MidipadTests" */;
+			buildPhases = (
+				C99C8C5319799CD30066FA46 /* Sources */,
+				C99C8C5419799CD30066FA46 /* Frameworks */,
+				C99C8C5519799CD30066FA46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C99C8C5D19799CD30066FA46 /* PBXTargetDependency */,
+			);
+			name = MidipadTests;
+			productName = MidipadTests;
+			productReference = C99C8C5719799CD30066FA46 /* MidipadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C99C8C2E19799CD30066FA46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Midi;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Matthew Stephens";
+				TargetAttributes = {
+					C99C8C5619799CD30066FA46 = {
+						TestTargetID = C99C8C3519799CD30066FA46;
+					};
+				};
+			};
+			buildConfigurationList = C99C8C3119799CD30066FA46 /* Build configuration list for PBXProject "Midipad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C99C8C2D19799CD30066FA46;
+			productRefGroup = C99C8C3719799CD30066FA46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C99C8C3519799CD30066FA46 /* Midipad */,
+				C99C8C5619799CD30066FA46 /* MidipadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C99C8C3419799CD30066FA46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99C8D86197BBDB60066FA46 /* syn_zap03.wav in Resources */,
+				C99C8D06197BBDB60066FA46 /* syn_clap08.wav in Resources */,
+				C99C8D0A197BBDB60066FA46 /* syn_clap12.wav in Resources */,
+				C99C8D73197BBDB60066FA46 /* syn_sd20.wav in Resources */,
+				C99C8D6A197BBDB60066FA46 /* syn_sd11.wav in Resources */,
+				C99C8D3C197BBDB60066FA46 /* syn_kick07.wav in Resources */,
+				C99C8D2B197BBDB60066FA46 /* syn_hh10.wav in Resources */,
+				C99C8D1C197BBDB60066FA46 /* syn_fx07.wav in Resources */,
+				C99C8D80197BBDB60066FA46 /* syn_tom05.wav in Resources */,
+				C99C8D08197BBDB60066FA46 /* syn_clap10.wav in Resources */,
+				C99C8D85197BBDB60066FA46 /* syn_zap02.wav in Resources */,
+				C99C8D2C197BBDB60066FA46 /* syn_hh11.wav in Resources */,
+				C99C8D03197BBDB60066FA46 /* syn_clap05.wav in Resources */,
+				C99C8D68197BBDB60066FA46 /* syn_sd09.wav in Resources */,
+				C99C8D37197BBDB60066FA46 /* syn_kick02.wav in Resources */,
+				C99C8D28197BBDB60066FA46 /* syn_hh07.wav in Resources */,
+				C99C8D45197BBDB60066FA46 /* syn_kick16.wav in Resources */,
+				C99C8D4F197BBDB60066FA46 /* syn_perc06.wav in Resources */,
+				C99C8D75197BBDB60066FA46 /* syn_shaker02.wav in Resources */,
+				C99C8D60197BBDB60066FA46 /* syn_sd01.wav in Resources */,
+				C99C8D55197BBDB60066FA46 /* syn_ride05.wav in Resources */,
+				C99C8D5B197BBDB60066FA46 /* syn_rim03.wav in Resources */,
+				C99C8CFF197BBDB60066FA46 /* syn_clap01.wav in Resources */,
+				C99C8D1B197BBDB60066FA46 /* syn_fx06.wav in Resources */,
+				C99C8D6C197BBDB60066FA46 /* syn_sd13.wav in Resources */,
+				C99C8D3B197BBDB60066FA46 /* syn_kick06.wav in Resources */,
+				C99C8D5F197BBDB60066FA46 /* syn_rim07.wav in Resources */,
+				C99C8D2F197BBDB60066FA46 /* syn_hh14.wav in Resources */,
+				C99C8D67197BBDB60066FA46 /* syn_sd08.wav in Resources */,
+				C99C8D3F197BBDB60066FA46 /* syn_kick10.wav in Resources */,
+				C99C8D19197BBDB60066FA46 /* syn_fx04.wav in Resources */,
+				C99C8D72197BBDB60066FA46 /* syn_sd19.wav in Resources */,
+				C99C8D02197BBDB60066FA46 /* syn_clap04.wav in Resources */,
+				C99C8D00197BBDB60066FA46 /* syn_clap02.wav in Resources */,
+				C99C8D4A197BBDB60066FA46 /* syn_perc01.wav in Resources */,
+				C99C8D69197BBDB60066FA46 /* syn_sd10.wav in Resources */,
+				C99C8D31197BBDB60066FA46 /* syn_hh16.wav in Resources */,
+				C99C8D61197BBDB60066FA46 /* syn_sd02.wav in Resources */,
+				C99C8D42197BBDB60066FA46 /* syn_kick13.wav in Resources */,
+				C99C8D58197BBDB60066FA46 /* syn_ride08.wav in Resources */,
+				C99C8D14197BBDB60066FA46 /* syn_cowbell02.wav in Resources */,
+				C99C8D4D197BBDB60066FA46 /* syn_perc04.wav in Resources */,
+				C99C8D77197BBDB60066FA46 /* syn_shaker04.wav in Resources */,
+				C99C8D5E197BBDB60066FA46 /* syn_rim06.wav in Resources */,
+				C99C8D83197BBDB60066FA46 /* syn_tom08.wav in Resources */,
+				C99C8D57197BBDB60066FA46 /* syn_ride07.wav in Resources */,
+				C99C8D10197BBDB60066FA46 /* syn_clap18.wav in Resources */,
+				C99C8D7B197BBDB60066FA46 /* syn_shaker08.wav in Resources */,
+				C99C8D66197BBDB60066FA46 /* syn_sd07.wav in Resources */,
+				C99C8D3E197BBDB60066FA46 /* syn_kick09.wav in Resources */,
+				C99C8D38197BBDB60066FA46 /* syn_kick03.wav in Resources */,
+				C99C8D21197BBDB60066FA46 /* syn_fx12.wav in Resources */,
+				C99C8D79197BBDB60066FA46 /* syn_shaker06.wav in Resources */,
+				C99C8D5A197BBDB60066FA46 /* syn_rim02.wav in Resources */,
+				C99C8D30197BBDB60066FA46 /* syn_hh15.wav in Resources */,
+				C99C8D62197BBDB60066FA46 /* syn_sd03.wav in Resources */,
+				C99C8D36197BBDB60066FA46 /* syn_kick01.wav in Resources */,
+				C99C8D1A197BBDB60066FA46 /* syn_fx05.wav in Resources */,
+				C99C8D26197BBDB60066FA46 /* syn_hh05.wav in Resources */,
+				C99C8D17197BBDB60066FA46 /* syn_fx02.wav in Resources */,
+				C99C8D44197BBDB60066FA46 /* syn_kick15.wav in Resources */,
+				C99C8D12197BBDB60066FA46 /* syn_clap20.wav in Resources */,
+				C99C8D65197BBDB60066FA46 /* syn_sd06.wav in Resources */,
+				C99C8D4E197BBDB60066FA46 /* syn_perc05.wav in Resources */,
+				C99C8D7A197BBDB60066FA46 /* syn_shaker07.wav in Resources */,
+				C99C8D0B197BBDB60066FA46 /* syn_clap13.wav in Resources */,
+				C99C8D6F197BBDB60066FA46 /* syn_sd16.wav in Resources */,
+				C99C8D48197BBDB60066FA46 /* syn_kick19.wav in Resources */,
+				C99C8D01197BBDB60066FA46 /* syn_clap03.wav in Resources */,
+				C99C8D20197BBDB60066FA46 /* syn_fx11.wav in Resources */,
+				C99C8D33197BBDB60066FA46 /* syn_hh18.wav in Resources */,
+				C99C8D29197BBDB60066FA46 /* syn_hh08.wav in Resources */,
+				C99C8D09197BBDB60066FA46 /* syn_clap11.wav in Resources */,
+				C99C8D04197BBDB60066FA46 /* syn_clap06.wav in Resources */,
+				C99C8D49197BBDB60066FA46 /* syn_kick20.wav in Resources */,
+				C99C8D59197BBDB60066FA46 /* syn_rim01.wav in Resources */,
+				C99C8D16197BBDB60066FA46 /* syn_fx01.wav in Resources */,
+				C99C8D4C197BBDB60066FA46 /* syn_perc03.wav in Resources */,
+				C99C8D0F197BBDB60066FA46 /* syn_clap17.wav in Resources */,
+				C99C8D50197BBDB60066FA46 /* syn_perc07.wav in Resources */,
+				C99C8D40197BBDB60066FA46 /* syn_kick11.wav in Resources */,
+				C99C8D87197BBDB60066FA46 /* syn_zap04.wav in Resources */,
+				C99C8D64197BBDB60066FA46 /* syn_sd05.wav in Resources */,
+				C99C8D7F197BBDB60066FA46 /* syn_tom04.wav in Resources */,
+				C99C8D74197BBDB60066FA46 /* syn_shaker01.wav in Resources */,
+				C99C8D22197BBDB60066FA46 /* syn_hh01.wav in Resources */,
+				C99C8D2E197BBDB60066FA46 /* syn_hh13.wav in Resources */,
+				C99C8D2A197BBDB60066FA46 /* syn_hh09.wav in Resources */,
+				C99C8D70197BBDB60066FA46 /* syn_sd17.wav in Resources */,
+				C99C8D47197BBDB60066FA46 /* syn_kick18.wav in Resources */,
+				C99C8D54197BBDB60066FA46 /* syn_ride04.wav in Resources */,
+				C99C8D35197BBDB60066FA46 /* syn_hh20.wav in Resources */,
+				C99C8D6B197BBDB60066FA46 /* syn_sd12.wav in Resources */,
+				C99C8D15197BBDB60066FA46 /* syn_cowbell03.wav in Resources */,
+				C99C8D56197BBDB60066FA46 /* syn_ride06.wav in Resources */,
+				C99C8D11197BBDB60066FA46 /* syn_clap19.wav in Resources */,
+				C99C8D3D197BBDB60066FA46 /* syn_kick08.wav in Resources */,
+				C99C8D13197BBDB60066FA46 /* syn_cowbell01.wav in Resources */,
+				C99C8D05197BBDB60066FA46 /* syn_clap07.wav in Resources */,
+				C99C8D7E197BBDB60066FA46 /* syn_tom03.wav in Resources */,
+				C99C8D7C197BBDB60066FA46 /* syn_tom01.wav in Resources */,
+				C99C8D0C197BBDB60066FA46 /* syn_clap14.wav in Resources */,
+				C99C8D0D197BBDB60066FA46 /* syn_clap15.wav in Resources */,
+				C99C8D27197BBDB60066FA46 /* syn_hh06.wav in Resources */,
+				C99C8D07197BBDB60066FA46 /* syn_clap09.wav in Resources */,
+				C99C8D78197BBDB60066FA46 /* syn_shaker05.wav in Resources */,
+				C99C8D82197BBDB60066FA46 /* syn_tom07.wav in Resources */,
+				C99C8D71197BBDB60066FA46 /* syn_sd18.wav in Resources */,
+				C99C8D84197BBDB60066FA46 /* syn_zap01.wav in Resources */,
+				C99C8D0E197BBDB60066FA46 /* syn_clap16.wav in Resources */,
+				C99C8D1D197BBDB60066FA46 /* syn_fx08.wav in Resources */,
+				C99C8D3A197BBDB60066FA46 /* syn_kick05.wav in Resources */,
+				C99C8D2D197BBDB60066FA46 /* syn_hh12.wav in Resources */,
+				C99C8D1E197BBDB60066FA46 /* syn_fx09.wav in Resources */,
+				C99C8C5219799CD30066FA46 /* Images.xcassets in Resources */,
+				C99C8D23197BBDB60066FA46 /* syn_hh02.wav in Resources */,
+				C99C8D76197BBDB60066FA46 /* syn_shaker03.wav in Resources */,
+				C99C8D52197BBDB60066FA46 /* syn_ride02.wav in Resources */,
+				C99C8D1F197BBDB60066FA46 /* syn_fx10.wav in Resources */,
+				C99C8D34197BBDB60066FA46 /* syn_hh19.wav in Resources */,
+				C99C8D41197BBDB60066FA46 /* syn_kick12.wav in Resources */,
+				C99C8C4419799CD30066FA46 /* InfoPlist.strings in Resources */,
+				C99C8D32197BBDB60066FA46 /* syn_hh17.wav in Resources */,
+				C99C8D43197BBDB60066FA46 /* syn_kick14.wav in Resources */,
+				C99C8D18197BBDB60066FA46 /* syn_fx03.wav in Resources */,
+				C99C8D24197BBDB60066FA46 /* syn_hh03.wav in Resources */,
+				C99C8C4D19799CD30066FA46 /* Main.storyboard in Resources */,
+				C99C8D5C197BBDB60066FA46 /* syn_rim04.wav in Resources */,
+				C99C8D81197BBDB60066FA46 /* syn_tom06.wav in Resources */,
+				C99C8D5D197BBDB60066FA46 /* syn_rim05.wav in Resources */,
+				C99C8D53197BBDB60066FA46 /* syn_ride03.wav in Resources */,
+				C99C8D6E197BBDB60066FA46 /* syn_sd15.wav in Resources */,
+				C99C8D88197BBDB60066FA46 /* syn_zap05.wav in Resources */,
+				C99C8D7D197BBDB60066FA46 /* syn_tom02.wav in Resources */,
+				C99C8D46197BBDB60066FA46 /* syn_kick17.wav in Resources */,
+				C99C8D51197BBDB60066FA46 /* syn_ride01.wav in Resources */,
+				C99C8D63197BBDB60066FA46 /* syn_sd04.wav in Resources */,
+				C99C8D25197BBDB60066FA46 /* syn_hh04.wav in Resources */,
+				C99C8D39197BBDB60066FA46 /* syn_kick04.wav in Resources */,
+				C99C8D4B197BBDB60066FA46 /* syn_perc02.wav in Resources */,
+				C99C8D6D197BBDB60066FA46 /* syn_sd14.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99C8C5519799CD30066FA46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99C8C6319799CD30066FA46 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C99C8C3219799CD30066FA46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99C8C4619799CD30066FA46 /* main.m in Sources */,
+				C99C8C4A19799CD30066FA46 /* MidiAppDelegate.m in Sources */,
+				C99C8C5019799CD30066FA46 /* MidiViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99C8C5319799CD30066FA46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99C8C6519799CD30066FA46 /* MidipadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C99C8C5D19799CD30066FA46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C99C8C3519799CD30066FA46 /* Midipad */;
+			targetProxy = C99C8C5C19799CD30066FA46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C99C8C4219799CD30066FA46 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C99C8C4319799CD30066FA46 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C99C8C4B19799CD30066FA46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C99C8C4C19799CD30066FA46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C99C8C6119799CD30066FA46 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C99C8C6219799CD30066FA46 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C99C8C6619799CD30066FA46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C99C8C6719799CD30066FA46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C99C8C6919799CD30066FA46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Midipad/Midipad-Prefix.pch";
+				INFOPLIST_FILE = "Midipad/Midipad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C99C8C6A19799CD30066FA46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Midipad/Midipad-Prefix.pch";
+				INFOPLIST_FILE = "Midipad/Midipad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C99C8C6C19799CD30066FA46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Midipad.app/Midipad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Midipad/Midipad-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MidipadTests/MidipadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C99C8C6D19799CD30066FA46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Midipad.app/Midipad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Midipad/Midipad-Prefix.pch";
+				INFOPLIST_FILE = "MidipadTests/MidipadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C99C8C3119799CD30066FA46 /* Build configuration list for PBXProject "Midipad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C99C8C6619799CD30066FA46 /* Debug */,
+				C99C8C6719799CD30066FA46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C99C8C6819799CD30066FA46 /* Build configuration list for PBXNativeTarget "Midipad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C99C8C6919799CD30066FA46 /* Debug */,
+				C99C8C6A19799CD30066FA46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C99C8C6B19799CD30066FA46 /* Build configuration list for PBXNativeTarget "MidipadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C99C8C6C19799CD30066FA46 /* Debug */,
+				C99C8C6D19799CD30066FA46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C99C8C2E19799CD30066FA46 /* Project object */;
+}

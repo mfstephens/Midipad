@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--Midi View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="MidiViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="53y-oK-aOo">
+                                <rect key="frame" x="0.0" y="0.0" width="160" height="142"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="greenButton" image="greenButton">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="selectedGreenButton"/>
+                                <connections>
+                                    <action selector="pressedPadButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="VC2-hB-z7T"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RFp-vw-ZnD">
+                                <rect key="frame" x="0.0" y="426" width="160" height="142"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="lightBlueButton" image="lightBlueButton">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="selectedLightBlueButton"/>
+                                <connections>
+                                    <action selector="pressedPadButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="sHr-Ft-9xg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qLz-Wc-3Og">
+                                <rect key="frame" x="0.0" y="142" width="160" height="142"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="grayButton" image="grayButton">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="selectedGrayButton-1"/>
+                                <connections>
+                                    <action selector="pressedPadButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="gXt-xI-sZa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KFf-6p-fgV">
+                                <rect key="frame" x="0.0" y="284" width="160" height="142"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="peachButton" image="peachButton">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="selectedPeachButton"/>
+                                <connections>
+                                    <action selector="pressedPadButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="MzN-5O-7aC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="slr-ui-sme">
+                                <rect key="frame" x="160" y="284" width="160" height="142"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="purpleButton" image="purpleButton">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="selectedPurpleButton"/>
+                                <connections>
+                                    <action selector="pressedPadButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="spd-OA-Idq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="osz-tz-gTz">
+                                <rect key="frame" x="160" y="142" width="160" height="142"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="yellowButton" image="yellowButton">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="selectedYellowButton"/>
+                                <connections>
+                                    <action selector="pressedPadButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="PnB-eH-7Ss"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5xM-4z-Gc0">
+                                <rect key="frame" x="160" y="0.0" width="160" height="142"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="darkBlueButton" image="darkBlueButton">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="selectedDarkBlueButton"/>
+                                <connections>
+                                    <action selector="pressedPadButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="SKx-za-RQo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kyj-je-AHv">
+                                <rect key="frame" x="160" y="426" width="160" height="142"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="blackButton" image="blackButton">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="selectedBlackButton"/>
+                                <connections>
+                                    <action selector="pressedPadButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="6f8-vO-2YS"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="108" y="34"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="blackButton" width="160" height="142"/>
+        <image name="darkBlueButton" width="160" height="142"/>
+        <image name="grayButton" width="160" height="142"/>
+        <image name="greenButton" width="160" height="142"/>
+        <image name="lightBlueButton" width="160" height="142"/>
+        <image name="peachButton" width="160" height="142"/>
+        <image name="purpleButton" width="160" height="142"/>
+        <image name="selectedBlackButton" width="160" height="142"/>
+        <image name="selectedDarkBlueButton" width="160" height="142"/>
+        <image name="selectedGrayButton-1" width="160" height="142"/>
+        <image name="selectedGreenButton" width="160" height="142"/>
+        <image name="selectedLightBlueButton" width="160" height="142"/>
+        <image name="selectedPeachButton" width="160" height="142"/>
+        <image name="selectedPurpleButton" width="160" height="142"/>
+        <image name="selectedYellowButton" width="160" height="142"/>
+        <image name="yellowButton" width="160" height="142"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
